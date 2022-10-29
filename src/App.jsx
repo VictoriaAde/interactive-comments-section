@@ -1,10 +1,13 @@
 import { render } from "react-dom";
 import { StrictMode } from "react";
+import { CurrentUser } from "./components/CurrentUser";
+import { Comments } from "./components/Comments";
 
 const App = () => {
   return (
     <StrictMode>
-      <div>c</div>
+      <CurrentUser />
+      <Comments />
     </StrictMode>
   );
 };
