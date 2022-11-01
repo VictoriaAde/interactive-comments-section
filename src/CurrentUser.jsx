@@ -1,7 +1,6 @@
-import React from "react";
-import { currentUser } from "../data.json";
+import { currentUser } from './data.json';
 
-export const CurrentUser = () => {
+const CurrentUser = () => {
   return (
     <div className="current-user">
       <img
@@ -12,3 +11,5 @@ export const CurrentUser = () => {
     </div>
   );
 };
+
+export default CurrentUser;
