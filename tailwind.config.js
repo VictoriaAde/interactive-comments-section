@@ -13,6 +13,7 @@ module.exports = {
         Light_gray: 'hsl(223, 19%, 93%)',
         Very_light_gray: 'hsl(228, 33%, 97%)',
         White: 'hsl(0, 0%, 100%)',
+        icon_color: '#C5C6EF',
       },
     },
   },
